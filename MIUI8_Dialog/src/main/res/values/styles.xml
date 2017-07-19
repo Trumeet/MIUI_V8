@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+    <item name="android:windowNoTitle">true</item>
+   	</style>
+   <style name="CustomDialog" parent="@android:style/Theme.DeviceDefault.Light">
+    <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+       <item name="android:windowNoTitle">true</item>
+    <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+     <item name="android:windowAnimationStyle">@style/dialogWindowAnim</item> 
+    </style>
+    <style name="dialogWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+    	    <style name="DialogTitle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+        <style name="DialogMessage">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#b2000000</item>
+    </style>
+    <style name="ButtonDialogFirst">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#ff6c6c6c</item>
+    </style>
+        <style name="ButtonDialogLast">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#ff35a7ff</item>
+    </style>
+</resources>

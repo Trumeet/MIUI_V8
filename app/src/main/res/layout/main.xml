@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#F6F6F6">
+
+	<LinearLayout
+		android:layout_height="70dp"
+		android:layout_width="match_parent"
+		android:background="#EEEEEE"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="15dp"
+			android:textSize="15sp"
+			android:textColor="#484848"
+			android:text="@string/app_name"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:padding="20dp"
+		android:background="#FFFFFF">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:gravity="top|center"
+			android:orientation="vertical"
+			android:background="#FFFFFF">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/one"
+				android:text="dialog with one button"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/two"
+				android:text="dialog with two button"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/three"
+				android:text="dialog with three button"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/view_dialog"
+				android:text="dialog with view"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/edit_dialog"
+				android:text="dialog with edit text"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/click_item_dialog"
+				android:text="dialog with click_item"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/single_choice_dialog"
+				android:text="dialog with single choice"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_margin="5dp"
+				android:id="@+id/multi_choices_dialog"
+				android:text="dialog with multi choice"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
